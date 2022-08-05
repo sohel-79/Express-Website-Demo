@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar a{
+    color: white;
+}
+
+.main_menu{
+    background-color: black;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+.content_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.content_right{
+    height: auto;
+}
+
+.content_left p{
+    font-size: 2rem;
+}
+
+.content_left h1{
+    font-size: 4rem;
+    margin: 1rem 0 4rem 0;
+    text-transform: capitalize;
+    font-family: 'Square Peg', cursive;    
+}
+
+.row{
+    margin: 0;
+}
+
+.content_left button{
+    border: none;
+    padding: 0.8re 1.8rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-color: dodgerblue;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    margin-top: auto;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+.weather_content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+    background-color: #89ABE3FF;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.tempform #cityinput{
+    padding-left: 1rem;
+    background-color:white;
+    border: none;
+    border-radius: 1rem;
+    align-items: flex-start;
+}
+
+#submitbtn{
+    background-color: #89ABE3FF;
+    margin-left: 60%;
+    border: none;
+    color: white;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 1rem;
+}
+
+.tempInfo{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+    background-color: black;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.daydate{
+    background-color: #195190FF;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-size: larger;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#temp , #tempicon{
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+
+}
+
+.middle_layer{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+  {{>links}}
+
+</head>
+<body>
+
+    {{>navbar}}
+    
+
+   
+    <div class="container-fluid content">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <div class="col-md-6 col-12 content_left">
+                    <p>Welcome to weather app</p>
+                    <h1>Get the latest Weather Info of your city</h1>
+                    <a href="/weather"><button>Check Now</button></a>
+                </div>
+
+                <div class="col-md-6 col-12 content_right">
+                  <figure class="figure">
+                    <img src="images/20945178.jpg" class="figure-img img-fluid rounded" alt="">
+                    <figcaption class="figure-caption text-xs-end"><a href='https://www.freepik.com/vectors/forecast'>Forecast vector created by vectorjuice - www.freepik.com</a></figcaption>
+                  </figure>
+                </div>
+            </div>
+            
+            </div>
+        </div>     
+    </div>
+    
+    {{>footer}}
+      
+</body>
+</html>
